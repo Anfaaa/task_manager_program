@@ -1,0 +1,17 @@
+/*header.css*/
+
+h1 {
+  color: #333; 
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  user-select: none;
+}
+  
+p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+  user-select: none;
+}
+
+  

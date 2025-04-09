@@ -1,0 +1,50 @@
+/* taskCalendar.css */
+
+.rbc-month-row .rbc-date-cell, .rbc-month-row .rbc-event {
+    height: auto !important;
+    white-space: normal;
+    padding: 5px;
+}
+
+.rbc-month-row {
+    display: table !important;
+}
+
+.task-calendar-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    height: 120vh;
+    user-select: none !important;
+  }
+  
+
+.rbc-today {
+    background-color: #8492a0 !important;
+}
+
+.rbc-event {
+    background-color: #e8e8e8 !important;
+    color: #000000 !important; 
+}
+
+.rbc-event-content {
+    word-wrap: break-word !important; 
+    white-space: normal !important;
+  }
+
+.rbc-header {
+    background-color: #111; 
+    color: white;
+}
+
+.headLabel {
+    padding: 20px;
+}
+
+.other-user-task {
+    background-color: #b9a3cf !important;
+    border-radius: 8px;
+}

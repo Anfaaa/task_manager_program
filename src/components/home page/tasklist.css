@@ -1,0 +1,103 @@
+/* tasklist.css */
+
+.full-height {
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.task-list-container {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.tools-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px 30px 8px 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    user-select: none;
+}
+
+.icon {
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.tasks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    flex-grow: 1; 
+}
+
+.task-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.search-container {
+    position: relative;
+    flex: 1;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%; 
+    right: 10px; 
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.url {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    user-select: none;
+}
+
+.url:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.filter-container, .sort-container {
+    position: relative;
+    display: inline-block;
+}
+
+.filter-menu, .sort-menu {
+    position: absolute;
+    top: 15px;
+    right: 70%;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 10px;
+    border-radius: 4px;
+    width: 150%;
+    min-width: 200px;
+}
+
+.filter-menu select, .sort-menu select {
+    width: 100%;
+    margin-bottom: 8px;
+}

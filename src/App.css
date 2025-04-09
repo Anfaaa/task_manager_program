@@ -1,0 +1,14 @@
+/*App.css*/
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.app-header {
+  text-align: center;
+  margin-top: 30vh;
+}
